@@ -1,0 +1,25 @@
+ESP8266 NodeMCU Connections:
+
+3.3V → IR Sensor VCC, LEDs through resistors
+
+3.3V → Ultrasonic Sensor VCC
+
+GND → All components GND
+
+Ultrasonic Sensor:
+
+TRIG → D1 (GPIO5)
+
+ECHO → D2 (GPIO4)
+
+IR Sensor:
+
+OUT → D5 (GPIO14)
+
+LEDs:
+
+Red LED anode → D6 (GPIO12) through 220Ω resistor
+
+Green LED anode → D7 (GPIO13) through 220Ω resistor
+
+Both cathodes → GND
